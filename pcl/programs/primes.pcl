@@ -30,11 +30,11 @@ program primes;
    end;
 
 begin
-   writeString("Please, give the upper limit : ");
+   writeString("Please, give me the upper limit: ");
    limit := readInteger(); 
    writeString("Prime numbers between 0 and ");
    writeInteger(limit);
-   writeString("\n\n");
+   writeString(":\n\n");
    counter := 0;
    if limit >= 2 then
    begin
